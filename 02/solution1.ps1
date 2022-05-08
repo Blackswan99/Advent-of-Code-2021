@@ -1,4 +1,4 @@
-$payload = get-content -path "C:\Users\Zwette\Documents\GitHub\Advent-of-Code-2021\02\input.txt"
+$payload = Get-Content -path "input.txt"
 $horizontal = 0
 $vertical = 0
 for ($i = 0; $i -lt ($payload.count); $i++){
