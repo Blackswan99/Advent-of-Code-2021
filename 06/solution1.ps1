@@ -29,6 +29,3 @@ $totaldur = Measure-Command {
     }
 }
 $totaldur.TotalSeconds
-
-# 383160 wrong, too high, took 100 minutes
-# 336984 wrong, too low, took 80 minutes
