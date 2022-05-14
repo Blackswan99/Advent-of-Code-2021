@@ -1,4 +1,4 @@
-$input = Get-Content -Path "C:\Users\adm-dejhsc0k\Documents\WindowsPowerShell\Scripts\test_input.txt"
+$input = Get-Content -Path "test_input.txt"
 
 [int[]]$array = @()
 $bucket = [System.Collections.ArrayList]@()
