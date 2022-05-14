@@ -21,9 +21,6 @@ $totaldur = Measure-Command {
                     $bucket[$i] = [int]$bucket[$i]-1
                 }
             }
-            #Write-Host "$j : " -NoNewline
-            #foreach ($num in $bucket) { Write-Host "$num " -NoNewline }
-            #Write-Host
         }
         Write-Host $j,$bucket.Count,$([int]$duration.TotalSeconds)
     }
